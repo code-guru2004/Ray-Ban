@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+a{
+    pointer-events: all;
+}
+button{
+    pointer-events: all;
+}
+
+
+#main{
+    width: 100%;
+    height: 100vh;
+   
+}
+
+#back{
+    width: 100%;
+    height: 100%;
+
+}
+#back img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+#top{
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    pointer-events: none;
+}
+#workingarea{
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1920px;
+    height: 100vh;
+    position: relative;
+}
+#nav{
+    width: 100%;
+    padding: 32px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav img{
+    width: 6vw;
+}
+#nleft,#nright{
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+}
+#nleft a, #nright a{
+    color: #fff;
+  
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    
+}
+
+#hero{
+    position: absolute;
+    top: 50%;
+    left:0;
+    transform: translate(0%,-45%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#heroleft{
+    min-width: 50%;
+
+}
+#heroleft .elem{
+    position: relative;
+    height: 7.5vw;
+    overflow: hidden;
+  
+}
+#heroleft .elem h1:nth-child(1){
+    top: 0;
+}
+#heroleft .elem h1{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    line-height: 0.9;
+    font-family: "Kajiro";
+    color: #fff;
+    font-weight: 100;
+    font-size: 8vw;
+    letter-spacing: 1px;
+    transform: translate(uppercase);
+}
+#heroleft button{
+    margin-top: 3vw;
+    font-family: "kajiro";
+    padding: 0.5vw 1.3vw;
+    font-size: 2.5vw;
+    letter-spacing: 2px;
+}
+#heroright{
+    width: 17%;
+    
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+#heroright p{
+    text-align: right;
+    font-size: 11px;
+    font-weight: 400;
+}
+#heroright #img-div{
+    width: 100%;
+    height: 170px;
+    
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-image: url("pexels-ngqah83-902030.jpg");
+    background-size: cover;
+    background-position:top;
+}
+#heroright p:nth-child(3){
+    margin-bottom: 50px;
+}
+
